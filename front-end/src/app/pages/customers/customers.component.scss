@@ -1,0 +1,101 @@
+#container{
+  padding: 0;
+  box-shadow: none !important;
+  min-height: 100vh;
+
+  .row{
+    margin: 0 !important;
+    padding: 10px !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  .buttons, .actions{
+    margin: 0;
+    button{
+      margin: 3px;
+      padding: 5px;
+    }
+  }
+
+  .buttons{
+    position: absolute;
+    top: 3px; 
+    right: 0;
+    button{
+      width: 35px;
+      height: 35px;
+      padding: 0 0 3px 0;
+      color: white;
+      background-color: rgb(203, 27, 27);
+      border-radius: 100%;
+    }
+  }
+
+  .list-group{
+    position: relative;
+  }
+  
+  .add{
+    display: table;
+    position: absolute;
+    top: 0px !important;
+    padding: 0 5px 2px 5px;
+    right: 40px !important;
+    z-index: 100;
+    background-color: rgb(45, 198, 45) !important;
+    border-radius: 5px;
+    color: white;
+  }
+
+  .list-group-item{
+    margin-bottom: 30px;
+    box-shadow: 0 0 2px gray;
+
+    &:first-child{
+      margin-top: 10px;
+    }
+
+    .content{
+      position: relative;
+    
+      .name{
+        display: block;
+        font-weight: 700;
+      }
+      .sub{
+        display: block;
+        line-height: 13px;
+        font-size: 11px;
+      }
+    }
+  
+  
+    .actions{
+      margin-top: 5px;
+      padding: 0 5px;
+      font-size: 14px;
+      
+  
+      button{
+        width: 35px;
+        height: 35px;
+        border-radius: 100%;
+        padding: 0 0 3px 1px;
+        background-color: aliceblue;
+      }
+  
+      button:hover{
+        background-color: rgb(107, 121, 158);
+        color: white;
+      }
+    }
+  }
+
+
+  
+}

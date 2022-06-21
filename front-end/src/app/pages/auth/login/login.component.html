@@ -1,0 +1,20 @@
+<div id="container" class="container-fluid">
+    <form class="form col-12 col-md-6" [formGroup]="userData" (ngSubmit)="onLogin($event)">
+      <div class="mb-3">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="email" formControlName="email">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Senha</label>
+        <input type="password" class="form-control" id="password"  formControlName="password">
+      </div>
+      <div class="mb-3 box-nav">
+          <a href="/auth/register">Criar nova conta</a>
+      </div>
+      <button type="submit" [disabled]="userData.invalid" class="btn btn-primary">Entrar</button>
+      <div class="notification error hide">
+        Algo deu errado, não foi possível realizar o login
+      </div>
+    </form>
+</div>
+

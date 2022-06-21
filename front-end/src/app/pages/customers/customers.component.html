@@ -1,0 +1,38 @@
+<section class="card container-fluid" id="container">
+
+  <header class="card-header">
+    <h1>Clientes</h1>
+
+    <div class="buttons">
+      <button class="btn" (click)="onLogout()">
+        <ng-icon name="FeatherPower"></ng-icon>
+      </button>
+      <button class="btn add" data-bs-toggle="modal" data-bs-target="#modal" (click)="onRegister()">
+        <ng-icon name="FeatherPlus"></ng-icon>
+      </button>
+    </div>
+  </header>
+
+  <div class="row justify-content-center">
+    <ul class="list-group col-10 col-md-6">
+      <li class="list-group-item" *ngFor="let item of customersData">
+        <div class="content">
+           
+          <span class="name">{{ item.name }}</span>
+          <span class="sub">{{ item?.address.district }}</span>
+          <span class="sub">{{ item?.address.city }}</span>
+
+        </div>
+        <div class="actions">
+          <button class="btn" (click)="onEdit(item)" data-bs-toggle="modal" data-bs-target="#modal"><ng-icon name="FeatherEdit"></ng-icon></button>
+          <button class="btn" (click)="onDelete(item)"  data-bs-toggle="modal" data-bs-target="#modal"><ng-icon name="FeatherTrash2"></ng-icon></button>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</section>
+
+<div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" style="display: none;">
+  <register [settings]="modalSettings"></register>
+</div>

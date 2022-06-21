@@ -1,0 +1,32 @@
+<div id="container" class="container-fluid">
+  <form class="form col-12 col-md-6" [formGroup]="userData" (ngSubmit)="onRegister()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" formControlName="name">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" formControlName="email">
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="password" formControlName="password" maxlength="8">
+    </div>
+    <div class="mb-3">
+      <label for="confirmPassword" class="form-label">Confirmar Senha</label>
+      <input type="password" class="form-control" id="confirmPassword" formControlName="confirmPassword" maxlength="8">
+    </div>
+    <div class="mb-3 box-nav">
+        <a href="/auth/login">Realizar Login</a>
+    </div>
+    <button type="submit" [disabled]="userData.invalid" class="btn btn-primary">Registrar</button>
+
+    
+    <div class="notification error hide">
+      Ops, As senhas são diferentes
+    </div>
+  </form>
+</div>
+
+
+
