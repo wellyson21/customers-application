@@ -19,6 +19,8 @@
 ### Cria clientes em POST /customers  {name, email, phone, address: JSON}
 
 
+### Informações de Rotas
+
 ```json
 {header: {access_token: "{TOKEN}"},
   routes: {
