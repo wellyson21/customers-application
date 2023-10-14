@@ -21,7 +21,7 @@
 
 ### Informações de Rotas
 
-```json
+```
 {header: {access_token: "{TOKEN}"},
   routes: {
   customers: {
