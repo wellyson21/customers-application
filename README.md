@@ -13,10 +13,10 @@
 
 ## API
 
-# Cria usuário em POST /users  {name, email e password}
-# Realiza login em POST  /users/login {email e password}
-# Atualiza o token antes de expirar em POST /users/refreshtoken
-# Cria clientes em POST /customers  {name, email, phone, address: JSON}
+### Cria usuário em POST /users  {name, email e password}
+### Realiza login em POST  /users/login {email e password}
+### Atualiza o token antes de expirar em POST /users/refreshtoken
+### Cria clientes em POST /customers  {name, email, phone, address: JSON}
 
 
 ```json
