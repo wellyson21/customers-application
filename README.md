@@ -6,8 +6,9 @@
 #### Dentro o projeto back-end edite o arquivo Database.ts com as informações do banco de dados
 
 ### Execulte o back-end
+    - npm run start
 ### Execulte o front-end
-    - Agora pode usar normalmente
+    - ng serve
 
 
 
