@@ -1,10 +1,12 @@
-# backend-customers-app
+# Api de registro de clientes com altentificação e frontend angular
 
-# Crie um banco de dados após isso
-# Dentro o projeto back-end edite o arquivo Database.ts com as informações do banco de dados
+## Informações de Execução
 
-# Execulte o back-end
-# Execulte o front-end
+### Crie um banco de dados após isso
+#### Dentro o projeto back-end edite o arquivo Database.ts com as informações do banco de dados
+
+### Execulte o back-end
+### Execulte o front-end
     - Agora pode usar normalmente
 
 
