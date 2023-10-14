@@ -1,4 +1,4 @@
-# Api de registro de clientes com altentificação e frontend angular
+# Api de registro de clientes com autentificação e frontend angular
 
 ## Informações de Execução
 
