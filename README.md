@@ -18,60 +18,16 @@
 
 ## API
 
-
-
-<table>
-    <thead>
-        <tr>
-            <th>Método</th>
-            <th>Rota</th>
-            <th>Descrição</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>POST</td>
-            <td>/users/login</td>
-            <td>Realiza o login de usuários</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/users/refreshtoken</td>
-            <td>Realiza Atualização de token</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/users</td>
-            <td>Realiza o registro de novos usuários</td>
-        </tr>
-         <tr>
-            <td>PUT</td>
-            <td>/users</td>
-            <td>Realiza a atualização de usuários existentes</td>
-        </tr>
-        <tr>
-            <td>GET</td>
-            <td>/users</td>
-            <td>Obtêm todos os usuários existentes</td>
-        </tr>
-         <tr>
-            <td>GET</td>
-            <td>/users/{id}</td>
-            <td>Obtêm um usuario espefifico pelo ID</td>
-        </tr>
-        <tr>
-            <td>DELETE</td>
-            <td>/users/{id}</td>
-            <td>Remove um usuario espefifico pelo ID</td>
-        </tr>
-
-     
-    </tbody>
-</table>
-
-
 Método  | Rota    | Descrição
 ------- | --------  | ---------------
+POST          | /users/login/        | Realiza o login de usuários
+POST          | /users/refreshtoken        | Realiza Atualização de token
+GET           | /users     | Obtêm todos os clientes
+GET          | /users/{id}         | Obtêm um usuario espefifico pelo ID
+POST          | /users/        | Registra um novo usuário
+PUT          | /users/{id}         | Realiza a atualização de usuários existentes
+DELETE       |  /users/{id}        | Remove um usuario espefifico pelo ID
+
 GET           | /customers     | Obtêm todos os clientes
 GET          | /customers/{id}         | Obtêm um cliente espefifico pelo ID
 POST          | /customers/        | Registra um novo cliente
