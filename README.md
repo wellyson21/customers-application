@@ -27,7 +27,6 @@ GET          | /users/{id}         | Obtêm um usuario espefifico pelo ID
 POST          | /users/        | Registra um novo usuário
 PUT          | /users/{id}         | Realiza a atualização de usuários existentes
 DELETE       |  /users/{id}        | Remove um usuario espefifico pelo ID
-
 GET           | /customers     | Obtêm todos os clientes
 GET          | /customers/{id}         | Obtêm um cliente espefifico pelo ID
 POST          | /customers/        | Registra um novo cliente
