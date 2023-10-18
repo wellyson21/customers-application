@@ -21,35 +21,6 @@
 
 
 <table>
-    <tbody>
-      
-        <tr>
-            <td>GET</td>
-            <td>/customers</td>
-            <td>Obtêm todos os clientes</td>
-        </tr>
-
-         <tr>
-            <td>GET</td>
-            <td>/customers/{id}</td>
-            <td>Obtêm um cliente espefifico pelo ID</td>
-        </tr>
-        <tr>
-            <td>POST</td>
-            <td>/customers/{id}</td>
-            <td>Obtêm um cliente espefifico pelo ID</td>
-        </tr>
-        <tr>
-            <td>DELETE</td>
-            <td>/customers/{id}</td>
-            <td>Remove um cliente espefifico pelo ID</td>
-        </tr>
-    </tbody>
-</table>
-
-## -
-
-<table>
     <thead>
         <tr>
             <th>Método</th>
@@ -99,11 +70,13 @@
 </table>
 
 
-Título  | Título
-------- | --------
-Texto   | Texto
-Texto   | Texto
-
+Método  | Rota    | Descrição
+------- | --------  | ---------------
+GET           | /customers     | Obtêm todos os clientes
+GET          | /customers/{id}         | Obtêm um cliente espefifico pelo ID
+POST          | /customers/{id}        | Registra um novo cliente
+PUT          | /customers/{id}         | Atualiza um cliente existente
+DELETE       |  /customers/{id}        | Remove um cliente espefifico pelo ID
 
 
 
