@@ -63,7 +63,7 @@
             <td>Remove um usuario espefifico pelo ID</td>
         </tr>
 
-          <tr>
+        <tr>
             <td>DELETE</td>
             <td>/users/{id}</td>
             <td>Remove um usuario espefifico pelo ID</td>
