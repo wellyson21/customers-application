@@ -74,7 +74,7 @@ Método  | Rota    | Descrição
 ------- | --------  | ---------------
 GET           | /customers     | Obtêm todos os clientes
 GET          | /customers/{id}         | Obtêm um cliente espefifico pelo ID
-POST          | /customers/{id}        | Registra um novo cliente
+POST          | /customers/        | Registra um novo cliente
 PUT          | /customers/{id}         | Atualiza um cliente existente
 DELETE       |  /customers/{id}        | Remove um cliente espefifico pelo ID
 
