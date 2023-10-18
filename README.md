@@ -28,40 +28,69 @@
         <tr>
             <th>Método</th>
             <th>Rota</th>
+            <th>Descrição</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td>POST</td>
             <td>/users/login</td>
+            <td>Realiza o login de usuários</td>
         </tr>
         <tr>
             <td>POST</td>
             <td>/users/refreshtoken</td>
+            <td>Realiza Atualização de token</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/users</td>
+            <td>Realiza o registro de novos usuários</td>
+        </tr>
+         <tr>
+            <td>PUT</td>
+            <td>/users</td>
+            <td>Realiza a atualização de usuários existentes</td>
+        </tr>
+        <tr>
+            <td>GET</td>
+            <td>/users</td>
+            <td>Obtêm todos os usuários existentes</td>
+        </tr>
+         <tr>
+            <td>GET</td>
+            <td>/users/{id}</td>
+            <td>Obtêm um usuario espefifico pelo ID</td>
+        </tr>
+          <tr>
+            <td>DELETE</td>
+            <td>/users/{id}</td>
+            <td>Remove um usuario espefifico pelo ID</td>
+        </tr>
+
+          <tr>
+            <td>GET</td>
+            <td>/customers</td>
+            <td>Obtêm todos os clientes</td>
+        </tr>
+         <tr>
+            <td>GET</td>
+            <td>/customers/{id}</td>
+            <td>Obtêm um cliente espefifico pelo ID</td>
+        </tr>
+         <tr>
+            <td>POST</td>
+            <td>/customers/{id}</td>
+            <td>Obtêm um cliente espefifico pelo ID</td>
+        </tr>
+         <tr>
+            <td>DELETE</td>
+            <td>/customers/{id}</td>
+            <td>Remove um cliente espefifico pelo ID</td>
         </tr>
     </tbody>
 </table>
 
 
-### Informações de Rotas
 
-```
-{header: {access_token: "{TOKEN}"},
-  routes: {
-  customers: {
-    get: { method: "GET", paths: ["/customers", "/customers/{id}", "/customers?key=value"] },
-    register: { method: "POST", paths: ["/customers"] },
-    update: { method: "PUT", paths: ["/customers/{id}"] },
-    delete: { method: "GET", paths: ["/customers/{id}"] }
-  },
-  users: {
-    get: { method: "GET", paths: ["/users", "/users/{id}", "/users?key=value"] },
-    register: { method: "POST", paths: ["/users"] },
-    update: { method: "PUT", paths: ["/users/{id}"] },
-    delete: { method: "GET", paths: ["/customers/{id}"] },
-    login: { method: "POST", paths: ["/users/login"] },
-    refreshtoken: { method: "POST", paths: ["/users/refreshtoken"] },
-  }
-}
-```
 
