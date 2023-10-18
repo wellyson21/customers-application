@@ -9,9 +9,9 @@
 ### Crie um banco de dados após isso
 #### Dentro o projeto back-end edite o arquivo Database.ts com as informações do banco de dados
 
-### Execulte o back-end
+### Execute o back-end
     - npm run start
-### Execulte o front-end
+### Execute o front-end
     - ng serve
 
 
