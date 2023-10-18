@@ -62,28 +62,28 @@
             <td>/users/{id}</td>
             <td>Obtêm um usuario espefifico pelo ID</td>
         </tr>
-          <tr>
+        <tr>
             <td>DELETE</td>
             <td>/users/{id}</td>
             <td>Remove um usuario espefifico pelo ID</td>
         </tr>
 
-          <tr>
+        <tr>
             <td>GET</td>
             <td>/customers</td>
             <td>Obtêm todos os clientes</td>
         </tr>
-         <tr>
+        <tr>
             <td>GET</td>
             <td>/customers/{id}</td>
             <td>Obtêm um cliente espefifico pelo ID</td>
         </tr>
-         <tr>
+        <tr>
             <td>POST</td>
             <td>/customers/{id}</td>
             <td>Obtêm um cliente espefifico pelo ID</td>
         </tr>
-         <tr>
+        <tr>
             <td>DELETE</td>
             <td>/customers/{id}</td>
             <td>Remove um cliente espefifico pelo ID</td>
