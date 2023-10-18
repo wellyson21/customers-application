@@ -63,12 +63,11 @@
             <td>Remove um usuario espefifico pelo ID</td>
         </tr>
 
-        <tr>
-            <td>GET</td>
-            <td>/customers</td>
-            <td>Obtêm todos os clientes</td>
+          <tr>
+            <td>DELETE</td>
+            <td>/users/{id}</td>
+            <td>Remove um usuario espefifico pelo ID</td>
         </tr>
-       
     </tbody>
 </table>
 
