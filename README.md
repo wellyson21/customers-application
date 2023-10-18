@@ -20,16 +20,16 @@
 
 Método  | Rota    | Descrição
 ------- | --------  | ---------------
-POST          | /users/login/        | Realiza o login de usuários
+POST          | /users/login        | Realiza o login de usuários
 POST          | /users/refreshtoken        | Realiza Atualização de token
 GET           | /users     | Obtêm todos os clientes
 GET          | /users/{id}         | Obtêm um usuario espefifico pelo ID
-POST          | /users/        | Registra um novo usuário
+POST          | /users        | Registra um novo usuário
 PUT          | /users/{id}         | Realiza a atualização de usuários existentes
 DELETE       |  /users/{id}        | Remove um usuario espefifico pelo ID
 GET           | /customers     | Obtêm todos os clientes
 GET          | /customers/{id}         | Obtêm um cliente espefifico pelo ID
-POST          | /customers/        | Registra um novo cliente
+POST          | /customers       | Registra um novo cliente
 PUT          | /customers/{id}         | Atualiza um cliente existente
 DELETE       |  /customers/{id}        | Remove um cliente espefifico pelo ID
 
