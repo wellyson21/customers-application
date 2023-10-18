@@ -23,6 +23,25 @@
 ### Atualiza o token antes de expirar em POST /users/refreshtoken
 ### Cria clientes em POST /customers  {name, email, phone, address: JSON}
 
+<table>
+    <thead>
+        <tr>
+            <th>Método</th>
+            <th>Rota</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>POST</td>
+            <td>/users/login</td>
+        </tr>
+        <tr>
+            <td>POST</td>
+            <td>/users/refreshtoken</td>
+        </tr>
+    </tbody>
+</table>
+
 
 ### Informações de Rotas
 
