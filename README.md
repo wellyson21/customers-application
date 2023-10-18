@@ -1,7 +1,7 @@
 # Api de registro de clientes com autentificação e frontend simples angular
 
 ## Tecnologias
--- Backend: Nodejs
+-- Backend: Nodejs, sequelize
 -- Frontend: Angular
 
 ## Informações de Execução
