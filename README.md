@@ -23,7 +23,7 @@
 ### Atualiza o token antes de expirar em POST /users/refreshtoken
 ### Cria clientes em POST /customers  {name, email, phone, address: JSON}
 
-<table>
+<table width="500px">
     <thead>
         <tr>
             <th>Método</th>
